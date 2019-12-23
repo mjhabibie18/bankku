@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <link rel="shortcut icon" href="img/bank.jpg"/>
+  <title>BANKKU.EPIZY>COM</title>
+  <link rel="shortcut icon" href="img/bank.jpg"/>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Bantuan</a></li>
+        <li><a href="#">Demo</a></li>
+        <li><a href="#">Kontak</a></li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <ul class="nav nav-pills nav-stacked">
+        <li><a style="font-size:20px; font-style: bold; color: black; ">TRANSFER</a></li><br>
+        <li><a href="transfer.html">Transfer Sesama Bank</a></li>
+        <li class="active"><a>Transfer Antar Bank Lain</a></li>
+        <li><a href="#">Informasi Kode Bank</a></li>
+      </ul>
+    </div>
+    <div class="col-sm-8 text-left"> 
+      <!-- Centered Pills -->
+  		<ul class="nav nav-pills nav-justified">
+  		  <li ><a href="menu.php">Rekening<br>Informasi & Mutasi</a></li>
+  		  <li class="active"><a href="#">Transfer<br>Sesama & Antar Bank</a></li>
+  		  <li ><a href="pembayaran.html">Pembayaran<br>Tagihan</a></li>
+        <li ><a href="pembelian.html">Pembelian<br>Voucher & Uang Elektronik</a></li>
+        <li ><a href="layanan.html">Layanan<br>Nasabah</a></li>
+  		</ul>
+        <hr>
+      
+      <div class="form-group row">
+        <div class="col-xs-4">
+          <label for="ex3">No-Rekening Nasabah</label>
+          <input class="form-control" id="ex3" type="text">
+        </div>
+        <div class="col-xs-4">
+          <label for="ex3">Nama Nasabah</label>
+          <div>IRFAN</div>
+        </div>
+        <div class="col-xs-4">
+          <label for="ex3">Jumlah Nominal</label>
+          <input class="form-control" id="ex3" type="text">
+          <br>
+          <button type="button" class="btn btn-primary btn-sm">Kirim</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-2 sidenav">
+      <div class="well">
+        <p>ADS</p>
+      </div>
+      <div class="well">
+        <p>ADS</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="container-flull text-center">
+  
+ <p>Desain By HABIBIE & KRIDHO </p>
+</footer>
+
+</body>
+</html>
